@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "BTAD"
 PROJECT_NAME_FULL: str = "BTAD: beanTech Anomaly Detection Dataset"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -24,8 +24,8 @@ LICENSE: License = License.CC_BY_SA_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Manufacturing(), Research.AnomalyDetection()]
 CATEGORY: Category = Category.Manufacturing()
 
-CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
-ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection()]
+ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
 RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
