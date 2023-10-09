@@ -31,7 +31,7 @@ RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = 2021
 
-HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/thtuan/btad-beantech-anomaly-detection"
+HOMEPAGE_URL: str = "htts://github.com/pankajmishra000/VT-ADL"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 6925993
@@ -53,7 +53,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = "https://arxiv.org/abs/2104.10036"
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = "https://github.com/pankajmishra000/VT-ADL"
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Kaggle":"https://www.kaggle.com/datasets/thtuan/btad-beantech-anomaly-detection"}
 
 CITATION_URL: Optional[str] = "https://github.com/pankajmishra000/VT-ADL#cite"
 AUTHORS: Optional[List[str]] = ["Pankaj Mishra", "Riccardo Verk", "Daniele Fornasier", "Claudio Piciarelli", "Gian Luca Foresti"]
