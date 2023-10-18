@@ -20,7 +20,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.CC_BY_SA_4_0()
+LICENSE: License = License.CC_BY_SA_4_0(source_url="https://github.com/pankajmishra000/VT-ADL#beantech-anomaly-detection-dataset---btad")
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Manufacturing(), Research.AnomalyDetection()]
 CATEGORY: Category = Category.Manufacturing()
 
