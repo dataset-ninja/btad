@@ -31,7 +31,7 @@ RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = 2021
 
-HOMEPAGE_URL: str = "htts://github.com/pankajmishra000/VT-ADL"
+HOMEPAGE_URL: str = "https://github.com/pankajmishra000/VT-ADL"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 6925993
@@ -57,6 +57,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Kaggle":"https:/
 
 CITATION_URL: Optional[str] = "https://github.com/pankajmishra000/VT-ADL#cite"
 AUTHORS: Optional[List[str]] = ["Pankaj Mishra", "Riccardo Verk", "Daniele Fornasier", "Claudio Piciarelli", "Gian Luca Foresti"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://pankajmishra000.github.io/000/","pankajmishra000@gmail.com"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["beanTech, Italy", "University of Udine, Italy"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.beantech.it/", "https://www.uniud.it/en"]
@@ -110,6 +111,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
