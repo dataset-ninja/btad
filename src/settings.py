@@ -24,7 +24,7 @@ LICENSE: License = License.CC_BY_SA_4_0(source_url="https://github.com/pankajmis
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Manufacturing(), Research.AnomalyDetection()]
 CATEGORY: Category = Category.Manufacturing()
 
-CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection(), CVTask.SemiSupervisedLearning()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
 RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
