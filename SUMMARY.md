@@ -1,4 +1,4 @@
-**BTAD: beanTech Anomaly Detection Dataset** is a dataset for instance segmentation, semantic segmentation, and object detection tasks. It is used in the manufacturing industry, and in the anomaly detection research. 
+**BTAD: beanTech Anomaly Detection Dataset** is a dataset for instance segmentation, semantic segmentation, object detection, and semi supervised learning tasks. It is used in the manufacturing industry, and in the anomaly detection research. 
 
 The dataset consists of 2540 images with 691 labeled objects belonging to 3 different classes including *product_2*, *product_1*, and *product_3*.
 
