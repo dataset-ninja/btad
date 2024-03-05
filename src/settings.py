@@ -64,7 +64,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.beantech.it/",
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"image sets":['ok','ko']}
-TAGS: Optional[List[str]] = None
+TAGS: Optional[List[str]] = ['synthetic']
 
 
 SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = None
