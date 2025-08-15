@@ -1,6 +1,6 @@
 Dataset **BTAD** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI1MjlfQlRBRC9idGFkLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIlkxNTIzeFk1a3NuL1QvdzNiQTRyTWhGZnFWekFFRkhoU1d6RE85dXA0d0U9In0=)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMjUyOV9CVEFEL2J0YWQtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAieUtGa2FWN2RRa3RRdzZIWEN5b0lEV3dDaGNNTGZpbzdRZG16ZW5pQ1dsVT0ifQ==?response-content-disposition=attachment%3B%20filename%3D%22btad-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
